@@ -5,10 +5,6 @@
         <field>Opportunity.npsp__In_Kind_Description__c</field>
         <readable>true</readable>
     </fieldPermissions>
-    <classAccesses>
-        <apexClass>ChangeNotificationController</apexClass>
-        <enabled>true</enabled>
-    </classAccesses>
     <customPermissions>
         <enabled>true</enabled>
         <name>Payments_Integration_Custom_Permission</name>

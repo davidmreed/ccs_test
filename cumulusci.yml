@@ -6,6 +6,8 @@ project:
         namespace: ccs_test
         api_version: '48.0'
     source_format: sfdx
+    dependencies:
+        - github: https://github.com/SalesforceFoundation/Cumulus
 
 tasks:
     robot:
