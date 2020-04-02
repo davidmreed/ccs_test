@@ -24,12 +24,11 @@ private class ccsBatch_TEST {
         DataBase.executeBatch(b);             
         Test.stopTest();
         
-        Opportunity oppResult = [SELECT Id, Name, npsp__In_Kind_Description__c
+        Opportunity oppResult = [SELECT Id, Name
                                                  FROM Opportunity
                                                  WHERE Id =:opps[0].Id];
         
         system.assertEquals('Name0Updated', oppResult.Name);
-        system.assertEquals('NPSPUpdated', oppResult.npsp__In_Kind_Description__c);
     }
 
 }

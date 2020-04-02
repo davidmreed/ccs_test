@@ -17,9 +17,6 @@ private with sharing class HealthCheck_TEST {
         RestContext.request = req;
         RestContext.response = res;
 
-        npsp__Data_Import_Settings__c dataImportSettings = new npsp__Data_Import_Settings__c();
-        dataImportSettings.npsp__Field_Mapping_Method__c = 'Data Import Field Mapping';
-
         Test.startTest();
         HealthCheck.checkHealth();
         Test.stopTest();
