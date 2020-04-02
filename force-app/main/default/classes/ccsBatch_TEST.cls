@@ -8,7 +8,7 @@ private class ccsBatch_TEST {
         insert acct;
         
         List<Opportunity> opps = new List<Opportunity>();
-        for(Integer i=0 ;i <200;i++)
+        for(Integer i=0 ;i <20;i++)
         {
             Opportunity opp = new Opportunity();
             opp.Name ='Name'+i;
