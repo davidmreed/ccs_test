@@ -4,7 +4,7 @@ project:
         - github: https://github.com/SalesforceFoundation/NPSP
     name: CCS_Test
     package:
-        name:  ccs_test
+        name: CCS Test
         namespace: ccs_test
         api_version: '48.0'
     source_format: sfdx
